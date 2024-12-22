@@ -2,6 +2,8 @@
 
 Este proyecto contiene pruebas de performance para evaluar el endpoint `POST /products/add` utilizando K6. 
 
+---
+
 ## Requisitos previos
 
 - **Node.js** (versión 16 o superior)
@@ -12,9 +14,22 @@ Verifica que K6 esté instalado ejecutando:
 ```bash
 k6 version
 ```
-Si no está instalado, sigue las instrucciones en [Instalación de K6](https://k6.io/open-source/).
+Si no está instalado, sigue las instrucciones según tu sistema operativo:
 
----
+### **Instalación de K6 en macOS usando Homebrew**
+1. Asegúrate de tener **Homebrew** instalado. Si no lo tienes, puedes instalarlo ejecutando:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+2. Instala K6 con:
+   ```bash
+   brew install k6
+   ```
+
+### **Instalación de K6 en otros sistemas operativos**
+Sigue las instrucciones en la [documentación oficial de K6](https://k6.io/open-source/).
+
+--- 
 
 ## Instalación
 
