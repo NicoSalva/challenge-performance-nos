@@ -58,4 +58,3 @@ Para ejecutar las pruebas de carga con K6:
 1. **Archivo `performanceTest.js`:** Contiene el script K6 para realizar las pruebas de carga.
 2. **Archivo `generateJWT.js`:** Genera tokens JWT válidos utilizando la clave secreta configurada.
 3. **Archivo `.env`:** Almacena la clave secreta para generar el JWT.
-```
