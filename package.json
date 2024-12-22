@@ -1,6 +1,7 @@
 {
   "name": "challenge-performance-nos",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "test:performance": "k6 run tests/performanceTest.js"
   },
@@ -9,5 +10,7 @@
     "jsonwebtoken": "^9.0.0"
   }
 }
+
+
 
 

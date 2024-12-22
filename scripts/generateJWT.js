@@ -13,6 +13,3 @@ const generateJWT = () => {
 };
 
 generateJWT();
-
-
-

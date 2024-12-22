@@ -23,12 +23,12 @@ export const options = {
     },
 };
 
-const jwtToken = __ENV.JWT_TOKEN; // JWT pasado como variable de entorno
+const jwtToken = __ENV.JWT_TOKEN; 
 
 export default function () {
     const url = 'https://dummyjson.com/products/add';
     const payload = JSON.stringify({
-        title: `Product-${__ITER}`, // Valor único por iteración
+        title: `Product-${__ITER}`, 
         price: Math.random() * 100,
     });
 
@@ -44,5 +44,3 @@ export default function () {
         'is response valid': (r) => r.json().title === JSON.parse(payload).title,
     });
 }
-
-
