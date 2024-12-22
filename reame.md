@@ -12,7 +12,7 @@ Verifica que K6 esté instalado ejecutando:
 ```bash
 k6 version
 ```
-Si no está instalado, sigue las instrucciones en [Instalación de K6](https://k6.io/docs/getting-started/installation/).
+Si no está instalado, sigue las instrucciones en [Instalación de K6](https://k6.io/open-source/).
 
 ---
 
